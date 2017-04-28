@@ -1,0 +1,31 @@
+td > a {
+  display: block;
+}
+
+.container {
+    width: 95%;
+}
+
+.main-nav {
+    background-color: #607d8b;
+}
+
+.card-label {
+    background-color: #90a4ae;
+    opacity: .9;
+}
+
+.card-text {
+    color: #263238;
+    font-size: 1em;
+}
+
+.body-text {
+    color: #263238;
+    font-size: 1em;
+    display: inline;
+}
+
+.left {
+    margin-left: 10px;
+}
