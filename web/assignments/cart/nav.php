@@ -1,6 +1,6 @@
 <header class="site-header">
     <div class="nav-bar">
-        <a href="/">Home</a>
+        <a href="/assignments/">Home</a>
         <a href="/assignments/cart/">Shop</a>
         <div class="cart-icon right">
             <a href="/assignments/cart/cart.php">

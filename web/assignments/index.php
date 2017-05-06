@@ -15,7 +15,9 @@
     ?>
     
     <h1 class="center">Assignments</h1>
-    <h2 class="center">Coming soon...</h2>
+    <ul class="center"> 
+      <a href="../assignments/cart" ><li class="assignmentItem">03 Prove: Assignment - PHP Shopping Cart</li></a>
+    </ul>
     
     </body>
 </html>
