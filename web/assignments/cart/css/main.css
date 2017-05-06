@@ -1,0 +1,43 @@
+.card-label {
+    background-color: #333;
+    opacity: .7;
+}
+
+.quantity {
+    max-width: 35px;
+}
+
+.material-icons {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.even {
+    background-color: #ddd;
+    border: 2px solid #ccc;
+}
+
+.odd {
+    border: 2px solid #ddd;
+}
+
+.cart-image {
+    width: 100px;
+    height: 100px;
+}
+
+.checkoutForm {
+    padding: 10px 100px 20px 100px;
+}
+
+.wrapper {
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    max-width: 600px;
+    text-align: center;
+    border: 2px solid #333;
+}
