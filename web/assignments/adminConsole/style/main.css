@@ -1,0 +1,144 @@
+#UpdateButton {
+    height: 30px;
+    width: 90px;
+}
+
+#OrderButton {
+    height: 30px;
+    width: 90px;
+}
+
+.td-input {
+    max-width: 150px;
+    margin: 0 !important;
+}
+
+.droptrue {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    max-width: 150px;
+}
+
+.saveButton {
+    opacity: 0;
+    2
+}
+
+#chart {
+    height: 300px;
+    width: 300px;
+}
+
+.canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#canvas-number {
+    width: 680px;
+    height: 420px;
+}
+
+.name {
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    color: #f8f8f8;
+    overflow: hidden;
+}
+
+.content__container {
+    display: inline-flex;
+    overflow: hidden;
+    font-weight: 400;
+    height: 47px;
+    margin-left: 25%;
+}
+
+.content__container:before {
+    content: '[';
+    left: 0;
+}
+
+.content__container:after {
+    content: ']';
+}
+
+.content__container:after,
+.content__container:before {
+    color: #22f89b;
+    font-size: 42px;
+    line-height: 40px;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+
+.content__container__text {
+    margin: 0;
+}
+
+.content__container__list__item {
+    line-height: 40px;
+    margin-top: -35px;
+}
+
+@keyframes opacity {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.userCounter-container {
+    margin-top: 25px;
+    background-color: #22f89b;
+    display: block;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.userCounter {
+    font-family: 'Lato', sans-serif;
+    font-size: 100px;
+    line-height: 230px;
+    padding-top: 100px;
+}
+
+.header-label > p {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    text-align: center;
+    margin: 6px 0 6px 0;
+    font-weight: bold;
+    color: #6F6F6F;
+    font-size: 12px;
+}
+
+
+/*.hidden {
+    display: none;
+}*/
+
+
+/*.orderItem {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    z-index: 0;
+    border: 2px solid #5a5a5a;
+    border-radius: 1px;
+    margin-top: 2px;
+    transition: .2s;
+}*/
