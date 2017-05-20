@@ -9,8 +9,6 @@ function updateTable() {
     update = getFilters(update);
     update = getOrderBy(update);
 
-    console.log(update);
-
     $.post('users.php', update, function (newTable) {
         $("#userTable").empty().append(newTable);
         $(function () {
