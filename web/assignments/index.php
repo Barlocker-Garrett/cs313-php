@@ -17,6 +17,7 @@
     <h1 class="center">Assignments</h1>
     <ul class="center"> 
       <a href="../assignments/cart" ><li class="assignmentItem">03 Prove: Assignment - PHP Shopping Cart</li></a>
+        <a href="../assignments/adminConsole/" ><li class="assignmentItem">05 Prove: Assignment - PHP Data Access</li></a>
     </ul>
     
     </body>
