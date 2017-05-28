@@ -4,6 +4,7 @@ function loaded() {
     };
 
     $.post('dash.php', get, function (data) {
+        console.log(data);
         data = JSON.parse(data);
         if (data.hasOwnProperty("activeGirls") && data.hasOwnProperty("activeGuys") &&
             data.hasOwnProperty("inactiveGirls") && data.hasOwnProperty("inactiveGuys") && 

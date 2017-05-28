@@ -1,11 +1,13 @@
 #UpdateButton {
     height: 30px;
     width: 90px;
+    z-index: 2;
 }
 
 #OrderButton {
     height: 30px;
     width: 90px;
+    z-index: 2;
 }
 
 .td-input {
@@ -21,8 +23,7 @@
 }
 
 .saveButton {
-    opacity: 0;
-    2
+    display: none;
 }
 
 #chart {
@@ -126,4 +127,62 @@
 
 .counter-divider {
     margin-top: 40px;
+}
+
+.trash {
+    color: #333;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+.addFab {
+    font-size: 50px;
+    background-color: #E57373;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    margin-top: -3%;
+    cursor: pointer;
+}
+
+.createUser {
+    display: inline;
+}
+
+.popup {
+    background: rgba(100, 100, 100, 0.6);
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+
+.popup>div {
+    border-radius: 10px;
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+    padding: 10px 15px;
+    width: 50%;
+    max-width: 600px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    border: 5px solid #D94754;
+    z-index: 3;
+}
+
+.userField {
+    font-size: 15px;
+    color:#333;
+}
+
+.form-item {
+   height: 1rem !important;
 }

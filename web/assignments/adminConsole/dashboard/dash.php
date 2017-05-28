@@ -35,6 +35,12 @@ if ($_REQUEST['action'] == "getName") {
             $guys = $row['count'];
         }
     }
+    if ($girls == null) {
+        $girls = 0;
+    }
+    if ($guys == null) {
+        $guys = 0;
+    }
     $stmt = $conn->query('SELECT COUNT(*) FROM users WHERE active = false GROUP BY ismale ORDER BY ismale');
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
     {

@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="../adminConsole/js/admin.js"></script>
+    <?php
+    include($_SERVER['DOCUMENT_ROOT'] . '/assignments/adminConsole/fav.php')
+    ?>
 </head>
 
 <body>
@@ -17,7 +20,7 @@
         <div class="col s4 center">
             <form method='post' action='login.php' id='login-form'>
                 <input type='text' id='email' name='email' value='garbar94@gmail.com' />
-                <input type='password' id='password' name='password' value='greatPassword' />
+                <input type='password' id='password' name='password' />
                 <input type='submit' value='Login' />
             </form>
         </div>

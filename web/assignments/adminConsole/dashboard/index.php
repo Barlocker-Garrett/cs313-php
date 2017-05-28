@@ -14,6 +14,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     <script src="../../../materialize/js/materialize.js"></script>
     <script src="../../adminConsole/js/admin.js"></script>
+    <?php
+    include($_SERVER['DOCUMENT_ROOT'] . '/assignments/adminConsole/fav.php')
+    ?>
 
 </head>
 
