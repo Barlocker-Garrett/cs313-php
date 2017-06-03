@@ -320,12 +320,12 @@ function insertNewItem(Item) {
     $.post('item.php', insert, function (data) {
         console.log(data);insert
         $("#createItemForm").hide();
-        // clearNewItemForm();
+        clearNewItemForm();
         updateInventory();
     });
 }
 
-function clearNewUserForm() {
+function clearNewItemForm() {
     document.getElementById('itemNameCreate').value = "";
     document.getElementById('stockCreate').value = "";
     document.getElementById('lentoutCreate').value = "";

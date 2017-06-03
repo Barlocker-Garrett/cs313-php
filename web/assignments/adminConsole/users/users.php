@@ -148,7 +148,7 @@ function bindUserInsert($stmt, $user) {
        $city != null && $state != null && $ismale != null && $firstname != null && $lastname != null) {
         
         $names = explode(" ", $fullname);
-        $firstname = names[0];
+        $firstname = $names[0];
         $lastname = end($names);
         
         $hash = hashPass($password);
